@@ -11,7 +11,7 @@ body {
 
 header {
   width: 100%;
-  height: 30vh;
+  height: 35vh;
   background-image: url(./images/pattern-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +21,7 @@ header {
     width: 90%;
     max-width: 450px;
     margin: auto;
-    padding-top: 30px;
+    padding-top: 40px;
 
     display: flex;
     flex-direction: column;
@@ -67,6 +67,7 @@ header {
       z-index: 1;
       font-weight: 700;
       background-color: #fff;
+      line-height: 2;
       border-radius: 15px;
       
       width: 100%;
@@ -100,7 +101,7 @@ main {
     position: relative;
     z-index: 0;
     width: 100%;
-    height: 70vh;
+    height: 65vh;
     transition: all 400ms ease;
     
     &:hover {
@@ -114,7 +115,7 @@ main {
   z-index: 3;
   left: 50%;
   bottom: 2rem;
-  translate: -50% 0;
+  transform: translateX(-50%);
   font-size: 14px;
   padding: 1rem 2rem;
   border-radius: 10px;
@@ -128,7 +129,9 @@ main {
 
 @media only screen and (min-width: 768px) {
   header nav {
-    max-width: 1050px;
+    min-width: 568px;
+    width: 70%;
+    max-width: 1200px;
 
     label {
       flex: 0 1 50%;
@@ -141,6 +144,7 @@ main {
     .result {
       flex-direction: row;
       align-items: stretch;
+      min-height: 160px;
       padding: 30px;
       margin-top: 40px;
       gap: 10px;
