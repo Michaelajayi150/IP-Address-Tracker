@@ -19,9 +19,7 @@ L.control
 
 $(document).ready(function () {
   $("#search").on("input", function (e) {
-    let new_address = e.target.value.replace(/[^\d.]/g, "");
-    e.target.value = new_address;
-    ip_address = new_address;
+    ip_address = e.target.value;
   });
 
   $("#btn").click(function () {
@@ -32,7 +30,7 @@ $(document).ready(function () {
 async function getLocation() {
   try {
     await fetch(
-      `https://geo.ipify.org/api/v2/country,city?apiKey=at_x2c2TfdhTzKZh5pONbIgx1iHWYwnE&ipAddress=${ip_address}`
+      `https://geo.ipify.org/api/v2/country,city?apiKey=at_x2c2TfdhTzKZh5pONbIgx1iHWYwnE&ipAddress=${ip_address}&domain=${ip_address}`
     )
       .then((res) => res.json())
       .then((data) => {
