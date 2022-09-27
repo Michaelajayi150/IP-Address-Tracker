@@ -61,6 +61,7 @@ A desktop view of how the web app looks like
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Website - [Michael Ajayi](https://michael-a.netlify.app)
+- Frontend Mentor - [@michaelajayi150](https://www.frontendmentor.io/profile/michaelajayi150)
+- Twitter - [@michaelajayi150](https://www.twitter.com/michaelajayi150)
+- LinkedIn - [@ajayi-michael-692bb6203](https://www.linkedin.com/in/ajayi-michael-692bb6203/)
